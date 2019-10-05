@@ -1101,7 +1101,7 @@ class TestDownloader(APITestCase):
         response = self.client.get(url, data={'q': format})
         self.assertEqual(response.status_code, expected_status)
 
-    def test_cannot_download_conll_format_file(self):
+    def test_can_download_conll_format_file(self):
         self.download_test_helper(url=self.labeling_url,
                                   format='conll',
                                   expected_status=status.HTTP_200_OK)

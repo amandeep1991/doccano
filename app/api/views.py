@@ -19,8 +19,8 @@ from .serializers import ProjectSerializer, LabelSerializer, DocumentSerializer,
 from .serializers import ProjectPolymorphicSerializer
 
 from .utils import CSVParser, ExcelParser, JSONParser, PlainTextParser, CoNLLParser, iterable_to_io
-from .utils import JSONLRenderer
-from .utils import JSONPainter, CSVPainter
+from .utils import JSONLRenderer, CoNLLRenderer
+from .utils import JSONPainter, CSVPainter, CONLLPainter
 
 class Me(APIView):
     permission_classes = (IsAuthenticated,)
