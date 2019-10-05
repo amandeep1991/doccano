@@ -143,7 +143,7 @@ venv.bak/
 .idea/doccano.iml
 .idea/misc.xml
 .idea/modules.xml
-.idea/vcs.xml
+.idea/
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
@@ -202,3 +202,4 @@ pip-selfcheck.json
 node_modules/
 bundle/
 webpack-stats.json
+/.idea/sonarlint/issuestore/1/9/19359a61ae2446b51b549167b014da2fcf265768
